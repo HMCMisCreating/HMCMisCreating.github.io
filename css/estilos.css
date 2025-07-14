@@ -1,3 +1,35 @@
+/*Images*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*image links*/
+.imgtxt {
+  width: fit-content;
+  height: fit-content;
+  display: inline-block;
+  position: absolute;
+}
+.imgtxt span {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  font-size: 2rem;
+  color: #FFF;
+  filter: drop-shadow(1px 1px 0 black) 
+    drop-shadow(-1px 1px 0 black)
+    drop-shadow(1px -1px 0 black)
+    drop-shadow(-1px -1px 0 black);
+}
+.imgtxt:hover span, .imgtxt:focus span {
+  opacity: 1;
+}
+
+
 /* Libreta */
 .book {
   border: 7px solid black;
@@ -36,6 +68,8 @@
 
 * {
 	box-sizing:border-box;
+  margin: 0;
+	padding: 0;
 }
 
 
@@ -97,50 +131,16 @@
 }
 
 h1 {
- 	font-size:16px; 
+ 	font-size:large; 
   position:relative;
 }
 
-/*Images*/
-img {
-  max-width: 90%;
-  height: auto;
-}
-
-/*image links*/
-.imgtxt {
-  width: fit-content;
-  height: fit-content;
-  display: inline-block;
-  position: relative;
-}
-.imgtxt span {
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 99;
-  font-size: 2.5rem;
-  color: #FFF;
-  filter: drop-shadow(1px 1px 0 black) 
-    drop-shadow(-1px 1px 0 black)
-    drop-shadow(1px -1px 0 black)
-    drop-shadow(-1px -1px 0 black);
-}
-.imgtxt:hover span, .imgtxt:focus span {
-  opacity: 1;
-}
-.imgtxt:hover img, .imgtxt:focus img {
-  /* add hover effects like transform or filter to your images here! */
-}
-	
-.imgtxt item-1 {
-  max-width: 20%;
-  height: auto;
-  position:relative;
-  top: 200px;
-  z-index: 1;
+#explore {
+    z-index: 10; 
+    padding: 20px;
+    background: white;
+    margin-top: 50px; 
+    border: 1px solid red;
 
 }
 
