@@ -1,6 +1,6 @@
 class TapeDeck extends HTMLElement {
 
-	dir = "https://file.garden/aHwkrLj9PThoD5Nv/audio";
+	dir = "https://file.garden/aHwkrLj9PThoD5Nv/";
 
 	audio = new Audio;
 	list = [];
