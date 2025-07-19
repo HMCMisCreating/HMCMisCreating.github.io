@@ -1,6 +1,6 @@
 class TapeDeck extends HTMLElement {
 
-	dir = "https://github.com/HMCMisCreating/HMCMisCreating.github.io/tree/main/audio";
+	dir = "https://file.garden/aHwkrLj9PThoD5Nv/audio";
 
 	audio = new Audio;
 	list = [];
