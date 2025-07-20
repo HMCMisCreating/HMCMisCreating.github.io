@@ -169,4 +169,12 @@ tape-deck {
 		color: var(--purple);
 	}
 }
+
+.counter{
+  padding:20px;
+  border: 25px;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
 	
