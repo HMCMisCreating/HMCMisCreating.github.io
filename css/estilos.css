@@ -156,7 +156,7 @@ h1 {
 
 tape-deck {
 	color: var(--white);
-	font-family: chicago;
+	font-family: monospace;
 	writing-mode: sideways-rl;
 	background-color: var(--black);
 	height: 425px;
