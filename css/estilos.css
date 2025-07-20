@@ -152,4 +152,21 @@ h1 {
   grid-row-end: 9;
 }
 
+/* tape deck */
+
+tape-deck {
+	color: var(--white);
+	font-family: chicago;
+	writing-mode: sideways-rl;
+	background-color: var(--black);
+	height: 425px;
+	padding: 18px 10px;
+	margin-left: 18px;
+	position: relative;
+
+	:is(button, select):hover {
+		/* color: #cdae6a; */
+		color: var(--purple);
+	}
+}
 	
