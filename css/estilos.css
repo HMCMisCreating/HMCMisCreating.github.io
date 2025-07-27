@@ -191,6 +191,11 @@ tape-deck {
   border: 25px;
   position: relative;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+/*Footer*/
+footer {
+  text-align: end;
+  padding: 10%;
 }
 	

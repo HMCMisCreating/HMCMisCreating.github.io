@@ -110,3 +110,9 @@ header {
   border: 3px solid #7207d6;
   box-shadow: none;
 }
+
+/*Footer*/
+footer {
+  text-align: end;
+  padding: 10%;
+}
